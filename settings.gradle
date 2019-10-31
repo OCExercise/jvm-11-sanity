@@ -1,4 +1,4 @@
 rootProject.name = 'sanity'
 
-include 'sanity-jvm'
+include 'sanity-basic'
 
