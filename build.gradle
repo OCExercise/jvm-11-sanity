@@ -43,6 +43,7 @@ subprojects {
         compile group: 'org.scalactic', name: 'scalactic_2.13', version: '3.0.8'
 
         testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: junit_version
+        testRuntime group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: junit_version
         testCompile group: 'org.scalatest', name: 'scalatest_2.13', version: '3.0.8'
 
 
@@ -72,6 +73,10 @@ subprojects {
         idea {
             targetVersion = "13"
         }
+    }
+
+    test {
+        useJUnitPlatform()
     }
 
 }
