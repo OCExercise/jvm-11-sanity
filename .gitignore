@@ -1,0 +1,48 @@
+# Previous
+*.class
+*~
+*.zip
+# *.gz
+# *.tgz
+#*.jar
+bin/logs/*
+logs/*
+*.log
+*.local.*
+
+# IDE stuff (Eclipse, Intellij)
+
+**/.settings/
+**/.classpath
+#**/bin
+**/target
+**/.project
+**/.cache-tests
+**/.cache-main
+**/.cache-main
+**/.cache-tests
+**/.idea
+*.ipr
+*.iws
+**/*.iml
+**/out/production
+**/out/test
+
+# Gradle
+.gradle
+build
+
+# Misc
+**/*.log
+**/DB_EXCEPTIONS
+.csv
+.dat
+.txt
+test.*
+**/*~lock*
+**/*.swp
+**/*.pid
+**/logs
+**/DB_EXCEPTIONS
+.DS_Store
+web/.attach_pid*
